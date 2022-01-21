@@ -307,7 +307,7 @@ namespace RegionalRadio
                     }
                 }
             }
-            //return obj3;
+            return obj3;
         }
 
         public static object GetSingle(string SQLString, params SqlParameter[] cmdParms)
@@ -339,7 +339,7 @@ namespace RegionalRadio
                     }
                 }
             }
-            //return obj3;
+            return obj3;
         }
 
         private static void PrepareCommand(SqlCommand cmd, SqlConnection conn, SqlTransaction trans, string cmdText, SqlParameter[] cmdParms)
