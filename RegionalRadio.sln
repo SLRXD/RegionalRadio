@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegionalRadio", "RegionalRadio.csproj", "{4D4CF6D6-2676-466D-B289-EE2B1C5A5D40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D4CF6D6-2676-466D-B289-EE2B1C5A5D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4CF6D6-2676-466D-B289-EE2B1C5A5D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D4CF6D6-2676-466D-B289-EE2B1C5A5D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D4CF6D6-2676-466D-B289-EE2B1C5A5D40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC063508-1489-462A-9924-5D915E9C90EC}
+	EndGlobalSection
+EndGlobal
