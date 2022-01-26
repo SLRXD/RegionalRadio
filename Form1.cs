@@ -10,7 +10,6 @@ using System.Net.Sockets;
 using System.Speech.AudioFormat;
 using System.Speech.Synthesis;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace RegionalRadio
