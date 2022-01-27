@@ -9,7 +9,7 @@ namespace RegionalRadio
         public Edit(string RegionCode)
         {
             InitializeComponent();
-            string str = string.Format(@"select * from BroadCast where RegionCode=" + RegionCode);
+            string str = string.Format(@"select * from BroadCast where RegionCode='" + RegionCode + "'");
             DataTable dt = DbHelperSQLUp.ExecuteDataTable(str);
             lbRegionCode.Text = dt.Rows[0]["RegionCode"].ToString();
             lbRegionName.Text = dt.Rows[0]["RegionName"].ToString();
@@ -29,7 +29,7 @@ namespace RegionalRadio
             string Duration = tbDuration.Text.Trim();
             string CycleTime = tbCycleTime.Text.Trim();
             string ip = tbIP.Text.Trim();
-            string str = string.Format(@"update BroadCast set Duration='" + Duration + "',CycleTime='" + CycleTime + "',IP='" + ip + "' where RegionCode=" + RegionCode);
+            string str = string.Format(@"update BroadCast set Duration='" + Duration + "',CycleTime='" + CycleTime + "',IP='" + ip + "' where RegionCode='" + RegionCode + "'");
             DbHelperSQLUp.ExecuteSql(str);
             LogHelper.WriteInfoLog(lbRegionName.Text + "设置成功\r\n");
             this.Close();
